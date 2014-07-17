@@ -1,0 +1,125 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "id": "Swietenia countries.1, Swietenia macrophylla in Belize @ 17.64,-88.72, Swietenia macrophylla in Belize @ 17.64,-88.72",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -88.72,
+                    17.64
+                ]
+            },
+            "properties": {
+                "taxon": "Swietenia macrophylla",
+                "location": "Belize @ 17.64,-88.72"
+            }
+        },
+        {
+            "id": "Swietenia countries.2, Swietenia macrophylla in Honduras @ 15.83,-86, Swietenia macrophylla in Honduras @ 15.83,-86",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86,
+                    15.83
+                ]
+            },
+            "properties": {
+                "taxon": "Swietenia macrophylla",
+                "location": "Honduras @ 15.83,-86"
+            }
+        },
+        {
+            "id": "Swietenia countries.3, Swietenia macrophylla in Mexico @ 20.5,-97.33, Swietenia macrophylla in Mexico @ 20.5,-97.33",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.33,
+                    20.5
+                ]
+            },
+            "properties": {
+                "taxon": "Swietenia macrophylla",
+                "location": "Mexico @ 20.5,-97.33"
+            }
+        },
+        {
+            "id": "Swietenia countries.4, Swietenia macrophylla in Panama @ 7.58,-80.66, Swietenia macrophylla in Panama @ 7.58,-80.66",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.66,
+                    7.58
+                ]
+            },
+            "properties": {
+                "taxon": "Swietenia macrophylla",
+                "location": "Panama @ 7.58,-80.66"
+            }
+        },
+        {
+            "id": "Swietenia countries.5, Swietenia macrophylla in Guatemala @ 17,-89.66, Swietenia macrophylla in Guatemala @ 17,-89.66",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.66,
+                    17
+                ]
+            },
+            "properties": {
+                "taxon": "Swietenia macrophylla",
+                "location": "Guatemala @ 17,-89.66"
+            }
+        },
+        {
+            "id": "Swietenia countries.6, Swietenia macrophylla in Costa Rica @ 11.07,-85.49, Swietenia macrophylla in Costa Rica @ 11.07,-85.49",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -85.49,
+                    11.07
+                ]
+            },
+            "properties": {
+                "taxon": "Swietenia macrophylla",
+                "location": "Costa Rica @ 11.07,-85.49"
+            }
+        },
+        {
+            "id": "Swietenia countries.7, Swietenia macrophylla in Bolivia @ -11.11,-69.06, Swietenia macrophylla in Bolivia @ -11.11,-69.06",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -69.06,
+                    -11.11
+                ]
+            },
+            "properties": {
+                "taxon": "Swietenia macrophylla",
+                "location": "Bolivia @ -11.11,-69.06"
+            }
+        },
+        {
+            "id": "Swietenia countries.8, Swietenia macrophylla in Nicaragua @ 13.66,-84.16, Swietenia macrophylla in Nicaragua @ 13.66,-84.16",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.16,
+                    13.66
+                ]
+            },
+            "properties": {
+                "taxon": "Swietenia macrophylla",
+                "location": "Nicaragua @ 13.66,-84.16"
+            }
+        }
+    ]
+}

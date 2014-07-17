@@ -4,39 +4,200 @@
 <!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>My AngularJS App</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="bower_components/html5-boilerplate/css/normalize.css">
-  <link rel="stylesheet" href="bower_components/html5-boilerplate/css/main.css">
-  <link rel="stylesheet" href="css/app.css"/>
-  <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GTTN Angular-Leaflet Prototype</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bower_components/html5-boilerplate/css/normalize.css">
+    <link rel="stylesheet" href="bower_components/html5-boilerplate/css/main.css">
+    <link rel="stylesheet" href="css/app.css"/>
+
+    <link rel="stylesheet" href="bower_components/leaflet-dist/leaflet.css"/>
+
+    <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+
+    <script src="bower_components/leaflet-dist/leaflet.js"></script>
+    <script src="bower_components/angular-leaflet-directive/dist/angular-leaflet-directive.js"></script>
+
+    <script src="js/app.js"></script>
+    <script src="js/services.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/filters.js"></script>
+    <script src="js/directives.js"></script>
+
+    <script>
+        var gttnMap = angular.module("gttnMap", ['leaflet-directive']);
+        gttnMap.controller("MapController", [ "$scope", "$http", function($scope, $http) {
+
+            // 0) Set up application parameters
+            $scope.activeSpecies = [{}]; // contains strings
+            $scope.markerTemplate = {
+                species: '',
+                lat: 0.0,
+                lng: 0.0,
+                message: '', // can be html
+                focus: true,
+                draggable:false
+            };
+            $scope.markerCache = {};
+                // parse geoJSON into  markerCache, which is displayed as a single marker layer in the leaflet map
+                // TODO: for the markers attribute, can I just return a subset from marker cache?
+
+            // 1) AJAX Call
+            // TODO: Hook up to a typeahead bar
+            // TODO: Replace with jQuery call
+            // This function will set all of the parameters in the Angular scope as necessary. It's tempting just to move to $http over $.ajax.
+
+            // i) Define dataset parsing method
+            function geoJsonToMarker(taxon, FeatureCollection, markers){
+                var ftrcl = FeatureCollection;
+                var features = ftrcl.features;
+                for (var i = 0; i < features.length; i++){
+                      markers[taxon+'_'+JSON.stringify(i)] = features[i];
+                };
+            };
+
+            //
+            $scope.accessSample = function (sampleURL) {
+                $http.get(sampleURL).success(function (data, status) {
+                    $scope.sampleData = data;
+                    //$scope.sampleURL = URL;
+                    console.log($scope.sampleData);
+
+                    // marker version
+                    geoJsonToMarker("Swietenia macrophylla", $scope.sampleData, $scope.markerCache);
+                    console.log($scope.markerCache);
+
+                    // geojson layer version
+                    angular.extend($scope, {
+                        geojson: {
+                            data: $scope.sampleData
+                        }
+                    });
+                    console.log(JSON.stringify($scope.sampleData));
+
+                });
+            };
+
+
+
+            // 2) Dynamic Layer Functionality
+                // Layers are defined as TileLayers. Would prefer overlay; but I don't know if that will work, yet.
+                // Taken from http://tombatossals.github.io/angular-leaflet-directive/examples/layers-example.html
+                angular.extend($scope, {
+                    geojson: {
+                        data: $scope.sampleData
+                    },
+                    mapDynamicLayers: {
+                        center: {
+                            // configure default centering values
+                            lat: 51.505,
+                            lng: -0.09,
+                            zoom: 8
+                        },
+                        markers: {
+                            m1: {
+                                lat: 51.505,
+                                lng: -0.09
+                            }
+                        }
+                    }
+                });
+                        /* legacy - no longer using overlay or baselayers due to issues with leaflet menu
+                        layers: {
+                            baselayers: {
+                                osm: {
+                                    name: 'OpenStreetMap',
+                                    type: 'xyz',
+                                    url: 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                                    layerOptions: {
+                                        subdomains: ['a', 'b', 'c'],
+                                        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                                        continuousWorld: true
+                                    }
+                                },
+                                cycle: {
+                                    name: 'OpenCycleMap',
+                                    type: 'xyz',
+                                    url: 'http://{s}.tile.opencyclemap.org/cycle/{z}/{x}/{y}.png',
+                                    layerOptions: {
+                                        subdomains: ['a', 'b', 'c'],
+                                        attribution: '&copy; <a href="http://www.opencyclemap.org/copyright">OpenCycleMap</a> contributors - &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                                        continuousWorld: true
+                                    }
+                                },
+                                cloudmade1: {
+                                    name: 'Cloudmade Night Commander',
+                                    type: 'xyz',
+                                    url: 'http://{s}.tile.cloudmade.com/{key}/{styleId}/256/{z}/{x}/{y}.png',
+                                    layerParams: {
+                                        key: '007b9471b4c74da4a6ec7ff43552b16f',
+                                        styleId: 999
+                                    },
+                                    layerOptions: {
+                                        subdomains: ['a', 'b', 'c'],
+                                        continuousWorld: true
+                                    }
+                                },
+                                cloudmade2: {
+                                    name: 'Cloudmade Tourist',
+                                    type: 'xyz',
+                                    url: 'http://{s}.tile.cloudmade.com/{key}/{styleId}/256/{z}/{x}/{y}.png',
+                                    layerParams: {
+                                        key: '007b9471b4c74da4a6ec7ff43552b16f',
+                                        styleId: 7
+                                    },
+                                    layerOptions: {
+                                        subdomains: ['a', 'b', 'c'],
+                                        continuousWorld: true
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    removeOsmLayer: function() {
+                        delete this.mapDynamicLayers.layers.baselayers.osm;
+                    },
+                    addOsmLayer: function() {
+                        this.mapDynamicLayers.layers.baselayers.osm = {
+                            name: 'OpenStreetMap',
+                            type: 'xyz',
+                            url: 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                            layerOptions: {
+                                subdomains: ['a', 'b', 'c'],
+                                attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                                continuousWorld: true
+                            }
+                        };
+                    },
+                    existsOsmLayer: function() {
+                        return ('osm' in this.mapDynamicLayers.layers.baselayers);
+                    }
+
+                });
+                */
+        }]);
+    </script>
+
 </head>
 <body>
-  <ul class="menu">
-    <li><a href="#/view1">view1</a></li>
-    <li><a href="#/view2">view2</a></li>
-  </ul>
-
-  <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-  <![endif]-->
-
-  <div ng-view></div>
-
-  <div>Angular seed app: v<span app-version></span></div>
-
-  <!-- In production use:
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
-  -->
-  <script src="bower_components/angular/angular.js"></script>
-  <script src="bower_components/angular-route/angular-route.js"></script>
-  <script src="js/app.js"></script>
-  <script src="js/services.js"></script>
-  <script src="js/controllers.js"></script>
-  <script src="js/filters.js"></script>
-  <script src="js/directives.js"></script>
+    <div ng-controller="MapController">
+        <!-- map elements -->
+        <leaflet width="640px" height="480px" geojson = "geojson" markers="markerCache"></leaflet>
+        <hr/>
+        <!--
+        <leaflet width="640px" height="480px" layers="mapDynamicLayers.layers"></leaflet>
+        -->
+        <div id="controls-container">
+            <p><h2>{{'Test External Controls' | uppercase}}</h2></p>
+            <button ng-click="accessSample('./models/Swietenia_GeoJSON.json')">Sweet sweet Swietenia</button>
+            <button ng-click="accessSample('./models/Milicia_GeoJSON.json')">Magnificent Milicia</button>
+            <button ng-click="accessSample('./models/Entandrophragma_GeoJSON.json')">Enormously Fond of Entandrophragma</button>
+        </div>
+    </div>
 </body>
 </html>

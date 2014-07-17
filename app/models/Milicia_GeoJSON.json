@@ -1,0 +1,3275 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-111",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.498887144,
+                    4.68412300958
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68412300958,10.498887144"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-61",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4984639742,
+                    4.6801085986
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.6801085986,10.4984639742"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-21",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5005194416,
+                    4.68028506378
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68028506378,10.5005194416"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-58",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4984639742,
+                    4.6801085986
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.6801085986,10.4984639742"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-78",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5016670857,
+                    4.68588052562
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68588052562,10.5016670857"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-123",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4754128854,
+                    4.6526378879
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.6526378879,10.4754128854"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-44",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4982602878,
+                    4.66058409047
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.66058409047,10.4982602878"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-95",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4930592093,
+                    4.68170277019
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68170277019,10.4930592093"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-144",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4914048121,
+                    4.66659454418
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.66659454418,10.4914048121"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-149",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4952930414,
+                    4.65543560056
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.65543560056,10.4952930414"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-52",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4984639742,
+                    4.6801085986
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.6801085986,10.4984639742"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-122",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4754128854,
+                    4.6526378879
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.6526378879,10.4754128854"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-143",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4914048121,
+                    4.66659454418
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.66659454418,10.4914048121"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-70",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5068739997,
+                    4.68028949428
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68028949428,10.5068739997"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-28",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5005194416,
+                    4.68028506378
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68028506378,10.5005194416"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-83",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4930592093,
+                    4.68170277019
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68170277019,10.4930592093"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-26",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5005194416,
+                    4.68028506378
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68028506378,10.5005194416"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-34",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4967159447,
+                    4.67190082564
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.67190082564,10.4967159447"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-42",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4982602878,
+                    4.66058409047
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.66058409047,10.4982602878"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-14",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5005194416,
+                    4.68028506378
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68028506378,10.5005194416"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-135",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4799530912,
+                    4.65575743824
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.65575743824,10.4799530912"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-114",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.498887144,
+                    4.68412300958
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68412300958,10.498887144"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-110",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.498887144,
+                    4.68412300958
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68412300958,10.498887144"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-50",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4984639742,
+                    4.6801085986
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.6801085986,10.4984639742"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-150",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4952930414,
+                    4.65543560056
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.65543560056,10.4952930414"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-133",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4799530912,
+                    4.65575743824
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.65575743824,10.4799530912"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-68",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4900822242,
+                    4.68052441404
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68052441404,10.4900822242"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-97",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4930592093,
+                    4.68170277019
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68170277019,10.4930592093"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-131",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4754128854,
+                    4.6526378879
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.6526378879,10.4754128854"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-36",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4982602878,
+                    4.66058409047
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.66058409047,10.4982602878"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-102",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4930592093,
+                    4.68170277019
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68170277019,10.4930592093"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-79",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5016670857,
+                    4.68588052562
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68588052562,10.5016670857"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-101",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4930592093,
+                    4.68170277019
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68170277019,10.4930592093"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-10",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5026083232,
+                    4.68766911377
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68766911377,10.5026083232"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-45",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4984639742,
+                    4.6801085986
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.6801085986,10.4984639742"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-129",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4754128854,
+                    4.6526378879
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.6526378879,10.4754128854"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-66",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4900822242,
+                    4.68052441404
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68052441404,10.4900822242"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-87",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4930592093,
+                    4.68170277019
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68170277019,10.4930592093"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-56",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4984639742,
+                    4.6801085986
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.6801085986,10.4984639742"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-25",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5005194416,
+                    4.68028506378
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68028506378,10.5005194416"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-8",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5026083232,
+                    4.68766911377
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68766911377,10.5026083232"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-24",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5005194416,
+                    4.68028506378
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68028506378,10.5005194416"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-65",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4900822242,
+                    4.68052441404
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68052441404,10.4900822242"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-127",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4754128854,
+                    4.6526378879
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.6526378879,10.4754128854"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-59",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4984639742,
+                    4.6801085986
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.6801085986,10.4984639742"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-43",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4982602878,
+                    4.66058409047
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.66058409047,10.4982602878"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-134",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4799530912,
+                    4.65575743824
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.65575743824,10.4799530912"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-51",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4984639742,
+                    4.6801085986
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.6801085986,10.4984639742"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-53",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4984639742,
+                    4.6801085986
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.6801085986,10.4984639742"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-100",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4930592093,
+                    4.68170277019
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68170277019,10.4930592093"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-120",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4754128854,
+                    4.6526378879
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.6526378879,10.4754128854"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-85",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4930592093,
+                    4.68170277019
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68170277019,10.4930592093"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-29",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5005194416,
+                    4.68028506378
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68028506378,10.5005194416"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-2",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5026083232,
+                    4.68766911377
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68766911377,10.5026083232"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-57",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4984639742,
+                    4.6801085986
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.6801085986,10.4984639742"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-9",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5026083232,
+                    4.68766911377
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68766911377,10.5026083232"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-82",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5016670857,
+                    4.68588052562
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68588052562,10.5016670857"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-5",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5026083232,
+                    4.68766911377
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68766911377,10.5026083232"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-41",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4982602878,
+                    4.66058409047
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.66058409047,10.4982602878"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-4",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5026083232,
+                    4.68766911377
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68766911377,10.5026083232"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-55",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4984639742,
+                    4.6801085986
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.6801085986,10.4984639742"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-148",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4914048121,
+                    4.66659454418
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.66659454418,10.4914048121"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-138",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4914048121,
+                    4.66659454418
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.66659454418,10.4914048121"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-141",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4914048121,
+                    4.66659454418
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.66659454418,10.4914048121"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-72",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5068739997,
+                    4.68028949428
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68028949428,10.5068739997"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-19",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5005194416,
+                    4.68028506378
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68028506378,10.5005194416"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-11",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5026083232,
+                    4.68766911377
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68766911377,10.5026083232"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-64",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4900822242,
+                    4.68052441404
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68052441404,10.4900822242"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-31",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4967159447,
+                    4.67190082564
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.67190082564,10.4967159447"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-40",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4982602878,
+                    4.66058409047
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.66058409047,10.4982602878"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-136",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4799530912,
+                    4.65575743824
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.65575743824,10.4799530912"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-146",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4914048121,
+                    4.66659454418
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.66659454418,10.4914048121"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-62",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4984639742,
+                    4.6801085986
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.6801085986,10.4984639742"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-69",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4900822242,
+                    4.68052441404
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68052441404,10.4900822242"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-124",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4754128854,
+                    4.6526378879
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.6526378879,10.4754128854"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-27",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5005194416,
+                    4.68028506378
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68028506378,10.5005194416"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-37",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4982602878,
+                    4.66058409047
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.66058409047,10.4982602878"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-115",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.498887144,
+                    4.68412300958
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68412300958,10.498887144"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-81",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5016670857,
+                    4.68588052562
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68588052562,10.5016670857"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-112",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.498887144,
+                    4.68412300958
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68412300958,10.498887144"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-88",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4930592093,
+                    4.68170277019
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68170277019,10.4930592093"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-142",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4914048121,
+                    4.66659454418
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.66659454418,10.4914048121"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-60",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4984639742,
+                    4.6801085986
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.6801085986,10.4984639742"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-7",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5026083232,
+                    4.68766911377
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68766911377,10.5026083232"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-38",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4982602878,
+                    4.66058409047
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.66058409047,10.4982602878"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-121",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4754128854,
+                    4.6526378879
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.6526378879,10.4754128854"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-54",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4984639742,
+                    4.6801085986
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.6801085986,10.4984639742"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-32",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4967159447,
+                    4.67190082564
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.67190082564,10.4967159447"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-103",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4930592093,
+                    4.68170277019
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68170277019,10.4930592093"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-125",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4754128854,
+                    4.6526378879
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.6526378879,10.4754128854"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-18",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5005194416,
+                    4.68028506378
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68028506378,10.5005194416"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-84",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4930592093,
+                    4.68170277019
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68170277019,10.4930592093"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-128",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4754128854,
+                    4.6526378879
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.6526378879,10.4754128854"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-15",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5005194416,
+                    4.68028506378
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68028506378,10.5005194416"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-71",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5068739997,
+                    4.68028949428
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68028949428,10.5068739997"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-108",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.498887144,
+                    4.68412300958
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68412300958,10.498887144"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-39",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4982602878,
+                    4.66058409047
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.66058409047,10.4982602878"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-33",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4967159447,
+                    4.67190082564
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.67190082564,10.4967159447"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-91",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4930592093,
+                    4.68170277019
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68170277019,10.4930592093"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-145",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4914048121,
+                    4.66659454418
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.66659454418,10.4914048121"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5026083232,
+                    4.68766911377
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68766911377,10.5026083232"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-47",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4984639742,
+                    4.6801085986
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.6801085986,10.4984639742"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-49",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4984639742,
+                    4.6801085986
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.6801085986,10.4984639742"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-99",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4930592093,
+                    4.68170277019
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68170277019,10.4930592093"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-13",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5005194416,
+                    4.68028506378
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68028506378,10.5005194416"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-63",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4984639742,
+                    4.6801085986
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.6801085986,10.4984639742"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-77",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5016670857,
+                    4.68588052562
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68588052562,10.5016670857"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-104",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4930592093,
+                    4.68170277019
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68170277019,10.4930592093"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-3",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5026083232,
+                    4.68766911377
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68766911377,10.5026083232"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-139",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4914048121,
+                    4.66659454418
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.66659454418,10.4914048121"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-22",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5005194416,
+                    4.68028506378
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68028506378,10.5005194416"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-6",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5026083232,
+                    4.68766911377
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68766911377,10.5026083232"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-20",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5005194416,
+                    4.68028506378
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68028506378,10.5005194416"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-132",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4754128854,
+                    4.6526378879
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.6526378879,10.4754128854"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-23",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5005194416,
+                    4.68028506378
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68028506378,10.5005194416"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-12",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5005194416,
+                    4.68028506378
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68028506378,10.5005194416"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-106",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.498887144,
+                    4.68412300958
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68412300958,10.498887144"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-75",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5068739997,
+                    4.68028949428
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68028949428,10.5068739997"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-35",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4967159447,
+                    4.67190082564
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.67190082564,10.4967159447"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-126",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4754128854,
+                    4.6526378879
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.6526378879,10.4754128854"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-109",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.498887144,
+                    4.68412300958
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68412300958,10.498887144"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-76",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5016670857,
+                    4.68588052562
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68588052562,10.5016670857"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-107",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.498887144,
+                    4.68412300958
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68412300958,10.498887144"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-147",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4914048121,
+                    4.66659454418
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.66659454418,10.4914048121"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-116",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.498887144,
+                    4.68412300958
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68412300958,10.498887144"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-130",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4754128854,
+                    4.6526378879
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.6526378879,10.4754128854"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-80",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5016670857,
+                    4.68588052562
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68588052562,10.5016670857"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-137",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4799530912,
+                    4.65575743824
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.65575743824,10.4799530912"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-96",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4930592093,
+                    4.68170277019
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68170277019,10.4930592093"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-118",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4754128854,
+                    4.6526378879
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.6526378879,10.4754128854"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-73",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5068739997,
+                    4.68028949428
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68028949428,10.5068739997"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-86",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4930592093,
+                    4.68170277019
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68170277019,10.4930592093"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-119",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4754128854,
+                    4.6526378879
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.6526378879,10.4754128854"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-67",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4900822242,
+                    4.68052441404
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68052441404,10.4900822242"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-30",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4967159447,
+                    4.67190082564
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.67190082564,10.4967159447"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-89",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4930592093,
+                    4.68170277019
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68170277019,10.4930592093"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-48",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4984639742,
+                    4.6801085986
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.6801085986,10.4984639742"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-140",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4914048121,
+                    4.66659454418
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.66659454418,10.4914048121"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-90",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4930592093,
+                    4.68170277019
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68170277019,10.4930592093"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-105",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4930592093,
+                    4.68170277019
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68170277019,10.4930592093"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-92",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4930592093,
+                    4.68170277019
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68170277019,10.4930592093"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-16",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5005194416,
+                    4.68028506378
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68028506378,10.5005194416"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-94",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4930592093,
+                    4.68170277019
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68170277019,10.4930592093"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-17",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5005194416,
+                    4.68028506378
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68028506378,10.5005194416"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-46",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4984639742,
+                    4.6801085986
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.6801085986,10.4984639742"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-74",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5068739997,
+                    4.68028949428
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68028949428,10.5068739997"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-98",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4930592093,
+                    4.68170277019
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68170277019,10.4930592093"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-117",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.498887144,
+                    4.68412300958
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68412300958,10.498887144"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-113",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.498887144,
+                    4.68412300958
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68412300958,10.498887144"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.1, Milicia excelsa in 00-004-FMU.006p-93",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4930592093,
+                    4.68170277019
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "00-004-FMU @ 4.68170277019,10.4930592093"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.002P-2",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6262533723,
+                    4.94859054729
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.94859054729,13.6262533723"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-155",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6365702931,
+                    4.96140909023
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.96140909023,13.6365702931"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-143",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.4836649977,
+                    4.75360220628
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.75360220628,13.4836649977"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.002P-6",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6210818535,
+                    4.94638212636
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.94638212636,13.6210818535"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.002P-19",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6386014744,
+                    4.95153725652
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.95153725652,13.6386014744"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-150",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6293421447,
+                    4.95941350536
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.95941350536,13.6293421447"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.002P-12",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.5890994847,
+                    4.94087945923
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.94087945923,13.5890994847"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-167",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6270558596,
+                    4.98350179031
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.98350179031,13.6270558596"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-161",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6406787683,
+                    4.96319017996
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.96319017996,13.6406787683"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-162",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.641017349,
+                    4.96078517687
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.96078517687,13.641017349"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-172",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.7164356653,
+                    4.8611144244
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.8611144244,13.7164356653"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-154",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6365702931,
+                    4.96140909023
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.96140909023,13.6365702931"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-148",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6326931239,
+                    4.96117497587
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.96117497587,13.6326931239"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-147",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6297839006,
+                    4.95946868532
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.95946868532,13.6297839006"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.002P-20",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6341517723,
+                    4.94028644007
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.94028644007,13.6341517723"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-169",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6186940757,
+                    4.98016516765
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.98016516765,13.6186940757"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-158",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6374326774,
+                    4.96302974098
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.96302974098,13.6374326774"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-140",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.4768145422,
+                    4.76157240832
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.76157240832,13.4768145422"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-170",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6278205321,
+                    4.91878495959
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.91878495959,13.6278205321"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.002P-15",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6288608544,
+                    4.96976781736
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.96976781736,13.6288608544"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.002P-3",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.5899680259,
+                    4.92670062906
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.92670062906,13.5899680259"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-142",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.4836649977,
+                    4.75360220628
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.75360220628,13.4836649977"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.002P-17",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6309790784,
+                    4.97024250412
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.97024250412,13.6309790784"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.002P-11",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6082765691,
+                    4.95089536744
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.95089536744,13.6082765691"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-141",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.4816842272,
+                    4.75250359152
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.75250359152,13.4816842272"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-163",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6417473169,
+                    4.96542624409
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.96542624409,13.6417473169"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-137",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.7505811562,
+                    4.76285676864
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.76285676864,13.7505811562"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-151",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6310497145,
+                    4.95785244239
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.95785244239,13.6310497145"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.002P-7",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.594496834,
+                    4.94279916547
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.94279916547,13.594496834"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-152",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6311209808,
+                    4.95827765563
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.95827765563,13.6311209808"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-139",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.4848905724,
+                    4.74965292613
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.74965292613,13.4848905724"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-165",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6433963614,
+                    4.9660265397
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.9660265397,13.6433963614"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.002P-18",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6273847729,
+                    4.96839006832
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.96839006832,13.6273847729"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-145",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6270546665,
+                    4.96231185861
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.96231185861,13.6270546665"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.002P-4",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6004246945,
+                    4.94116572911
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.94116572911,13.6004246945"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-171",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6405552631,
+                    4.91759013219
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.91759013219,13.6405552631"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-166",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.615104556,
+                    4.98033849995
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.98033849995,13.615104556"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-149",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6331362215,
+                    4.9605789919
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.9605789919,13.6331362215"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-146",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6304279371,
+                    4.96201136958
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.96201136958,13.6304279371"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-153",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6365702931,
+                    4.96140909023
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.96140909023,13.6365702931"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.002P-8",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6180392683,
+                    4.95683958047
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.95683958047,13.6180392683"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-138",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.5500960989,
+                    4.75230725893
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.75230725893,13.5500960989"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-157",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6376865112,
+                    4.96237909875
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.96237909875,13.6376865112"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-168",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6270558596,
+                    4.98350179031
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.98350179031,13.6270558596"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-160",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6397832663,
+                    4.96012242605
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.96012242605,13.6397832663"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-159",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6400018591,
+                    4.96346914932
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.96346914932,13.6400018591"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.002P-16",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6304636594,
+                    4.97091972942
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.97091972942,13.6304636594"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.002P-14",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.5895308619,
+                    4.94156770536
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.94156770536,13.5895308619"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-164",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6417473169,
+                    4.96542624409
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.96542624409,13.6417473169"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.002P-10",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.5887783292,
+                    4.94350147575
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.94350147575,13.5887783292"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.002P-5",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.5779038772,
+                    4.93904679497
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.93904679497,13.5779038772"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.002P-13",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.594582048,
+                    4.95369714143
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.95369714143,13.594582048"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-156",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.6365702931,
+                    4.96140909023
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.96140909023,13.6365702931"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.002P-9",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.5836920811,
+                    4.92244576138
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.92244576138,13.5836920811"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.3, Milicia excelsa in 10-003/004-FMU.005p-144",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.4834963344,
+                    4.7524081039
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-003/004-FMU @ 4.7524081039,13.4834963344"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.4, Milicia excelsa in 10-004-FMU.006p-151",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4374235767,
+                    3.14377192828
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-004-FMU @ 3.14377192828,15.4374235767"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.4, Milicia excelsa in 10-004-FMU.006p-162",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4583482067,
+                    3.16386449882
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-004-FMU @ 3.16386449882,15.4583482067"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.4, Milicia excelsa in 10-004-FMU.006p-154",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4498974486,
+                    3.16462813157
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-004-FMU @ 3.16462813157,15.4498974486"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.4, Milicia excelsa in 10-004-FMU.006p-159",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4184927556,
+                    3.11117551802
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-004-FMU @ 3.11117551802,15.4184927556"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.4, Milicia excelsa in 10-004-FMU.006p-156",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4498974486,
+                    3.16462813157
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-004-FMU @ 3.16462813157,15.4498974486"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.4, Milicia excelsa in 10-004-FMU.006p-155",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4498974486,
+                    3.16462813157
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-004-FMU @ 3.16462813157,15.4498974486"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.4, Milicia excelsa in 10-004-FMU.006p-153",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4498974486,
+                    3.16462813157
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-004-FMU @ 3.16462813157,15.4498974486"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.4, Milicia excelsa in 10-004-FMU.006p-158",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4687834029,
+                    3.1327756739
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-004-FMU @ 3.1327756739,15.4687834029"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.4, Milicia excelsa in 10-004-FMU.006p-157",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4498974486,
+                    3.16462813157
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-004-FMU @ 3.16462813157,15.4498974486"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.4, Milicia excelsa in 10-004-FMU.006p-163",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4583482067,
+                    3.16386449882
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-004-FMU @ 3.16386449882,15.4583482067"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.4, Milicia excelsa in 10-004-FMU.006p-161",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4583482067,
+                    3.16386449882
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-004-FMU @ 3.16386449882,15.4583482067"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.4, Milicia excelsa in 10-004-FMU.006p-160",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4184927556,
+                    3.11117551802
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-004-FMU @ 3.11117551802,15.4184927556"
+            }
+        },
+        {
+            "id": "Sample Chemical Isotope Data.4, Milicia excelsa in 10-004-FMU.006p-152",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4498974486,
+                    3.16462813157
+                ]
+            },
+            "properties": {
+                "taxon": "Milicia excelsa",
+                "location": "10-004-FMU @ 3.16462813157,15.4498974486"
+            }
+        }
+    ]
+}
