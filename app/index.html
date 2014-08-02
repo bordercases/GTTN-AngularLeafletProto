@@ -9,195 +9,198 @@
     <title>GTTN Angular-Leaflet Prototype</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="bower_components/html5-boilerplate/css/normalize.css">
-    <link rel="stylesheet" href="bower_components/html5-boilerplate/css/main.css">
-    <link rel="stylesheet" href="css/app.css"/>
 
-    <link rel="stylesheet" href="bower_components/leaflet-dist/leaflet.css"/>
+    <link rel="stylesheet" href="bower_components/html5-boilerplate/css/normalize.css"/>
+    <link rel="stylesheet" href="bower_components/html5-boilerplate/css/main.css"/>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/app.css"/>
+    <link rel="stylesheet" href="bower_components/leaflet-dist/leaflet.css" />
+    <link rel="stylesheet" href="bower_components/Leaflet.label/dist/leaflet.label.css" />
+    <link rel="stylesheet" href="bower_components/leaflet.markercluster/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="bower_components/leaflet.markercluster/dist/MarkerCluster.Default.css" />
 
     <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
 
-    <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-route/angular-route.min.js"></script>
 
+    <!-- leaflet -->
     <script src="bower_components/leaflet-dist/leaflet.js"></script>
-    <script src="bower_components/angular-leaflet-directive/dist/angular-leaflet-directive.js"></script>
+    <script src="bower_components/angular-leaflet-directive/dist/angular-leaflet-directive.min.js"></script>
+    <script src="bower_components/Leaflet.label/dist/leaflet.label.js"></script>
+    <script src="bower_components/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
 
+    <!-- bootstrap -->
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- assume jquery is included through npm package -->
+
+    <!-- angular app -->
     <script src="js/app.js"></script>
-    <script src="js/services.js"></script>
-    <script src="js/controllers.js"></script>
-    <script src="js/filters.js"></script>
-    <script src="js/directives.js"></script>
 
     <script>
+
+        var taxonData = {
+            species:[
+                {
+                    name: "Swietenia",
+                    link:"./models/Swietenia_GeoJSON.json",
+                    visible:false
+                },
+                {
+                    name:"Milicia",
+                    link:"./models/Milicia_GeoJSON.json",
+                    visible:false
+                },
+                {
+                    name:"Entandrophragma",
+                    link:"./models/Entandrophragma_GeoJSON.json",
+                    visible:false
+                }],
+            getSpecies: function(speciesName){
+                var auth = this; // wor karound
+                // TODO handle failure case
+                return auth.species.filter(
+                        function(species){ return species.name === speciesName }
+                )[0];
+            }
+        };
+
         var gttnMap = angular.module("gttnMap", ['leaflet-directive']);
-        gttnMap.controller("MapController", [ "$scope", "$http", function($scope, $http) {
+        gttnMap.controller("MapController", [ "$scope", "$http", "leafletData", function($scope, $http, leafletData) {
 
             // 0) Set up application parameters
-            $scope.activeSpecies = [{}]; // contains strings
-            $scope.markerTemplate = {
-                species: '',
-                lat: 0.0,
-                lng: 0.0,
-                message: '', // can be html
-                focus: true,
-                draggable:false
+
+            // Not databound - set as var (not that it makes it more inclusive)
+            var Marker = function(){
+                this.lat = 0.0
+                this.lng = 0.0
+                this.message = '' // can be html
+                this.focus = true
+                this.draggable = false
             };
+            $scope.taxonData = taxonData;
             $scope.markerCache = {};
-                // parse geoJSON into  markerCache, which is displayed as a single marker layer in the leaflet map
-                // TODO: for the markers attribute, can I just return a subset from marker cache?
 
             // 1) AJAX Call
             // TODO: Hook up to a typeahead bar
             // TODO: Replace with jQuery call
             // This function will set all of the parameters in the Angular scope as necessary. It's tempting just to move to $http over $.ajax.
 
-            // i) Define dataset parsing method
-            function geoJsonToMarker(taxon, FeatureCollection, markers){
-                var ftrcl = FeatureCollection;
+            // i) Define dataset parsing method (add markers)
+            $scope.geoJsonToMarker = function (taxonName, FeatureCollection){
+
+                var taxonType   = $scope.taxonData.getSpecies(taxonName).type;
+                var ftrcl       = FeatureCollection;
+                var features    = ftrcl.features;
+
+                // add Points
+                for (var i = 0; i < features.length; i++) {
+
+                    var point = new Marker();
+                    var ftr = features[i];
+
+                    point.group     = 'species';
+                    point.message   = ftr.id;
+                    point.lat       = ftr.geometry.coordinates[1];
+                    point.lng       = ftr.geometry.coordinates[0];
+                    point.label     = { message: ftr.properties.taxon, options: { noHide: true }}; // TODO: Necessary property?
+
+                    $scope.markerCache[taxonName + '_' + i] = point;
+                }
+
+            };
+
+            // Intermezzo - GeoJSON centering Function
+                // It's a part of the optimizations to zoom in to the bounds - by limiting the points that can be seen for the sample,
+                // we can focus on the points we need more quickly.
+                // NB: Replacing reference to geoJson scope val with an argument, since I don't use that particular functionality
+            $scope.centerJSON = function(geoJsonData) {
+                leafletData.getMap().then(function(map) {
+                    var latlngs = [];
+                    for (var i in geoJsonData.features[0].geometry.coordinates) {
+                        var coord = geoJsonData.features[0].geometry.coordinates[i];
+                        for (var j in coord) {
+                            var points = coord[j];
+                            for (var k in points) {
+                                latlngs.push(geoJsonData.coordsToLatLng(points[k]));
+                            }
+                        }
+                    }
+                    map.fitBounds(latlngs);
+                });
+            };
+
+            // ii) Define marker remove method
+            $scope.removeMarker = function (taxonName, FeatureCollection){
+                var ftrcl       = FeatureCollection;
+
                 var features = ftrcl.features;
-                for (var i = 0; i < features.length; i++){
-                      markers[taxon+'_'+JSON.stringify(i)] = features[i];
+                for (var i = 0; i < features.length; i++) {
+                    if ($scope.markerCache[taxonName + '_' + i]){
+                        delete $scope.markerCache[taxonName + '_' + i]
+                    }
                 };
             };
 
-            //
-            $scope.accessSample = function (sampleURL) {
+            // Access and Delete Samples
+            $scope.accessSample = function (taxonName) {
+                var sampleURL = $scope.taxonData.getSpecies(taxonName).link;
+
+                // TODO: refactor this into taxonData object
                 $http.get(sampleURL).success(function (data, status) {
-                    $scope.sampleData = data;
-                    //$scope.sampleURL = URL;
-                    console.log($scope.sampleData);
-
-                    // marker version
-                    geoJsonToMarker("Swietenia macrophylla", $scope.sampleData, $scope.markerCache);
-                    console.log($scope.markerCache);
-
-                    // geojson layer version
-                    angular.extend($scope, {
-                        geojson: {
-                            data: $scope.sampleData
-                        }
-                    });
-                    console.log(JSON.stringify($scope.sampleData));
-
+                    var sampleData = data;
+                    $scope.geoJsonToMarker(taxonName, sampleData);
+                    $scope.centerJSON(sampleData)
                 });
             };
 
+            $scope.deleteSample = function(taxonName){
+                var sampleURL = $scope.taxonData.getSpecies(taxonName).link;
 
-
-            // 2) Dynamic Layer Functionality
-                // Layers are defined as TileLayers. Would prefer overlay; but I don't know if that will work, yet.
-                // Taken from http://tombatossals.github.io/angular-leaflet-directive/examples/layers-example.html
-                angular.extend($scope, {
-                    geojson: {
-                        data: $scope.sampleData
-                    },
-                    mapDynamicLayers: {
-                        center: {
-                            // configure default centering values
-                            lat: 51.505,
-                            lng: -0.09,
-                            zoom: 8
-                        },
-                        markers: {
-                            m1: {
-                                lat: 51.505,
-                                lng: -0.09
-                            }
-                        }
-                    }
+                // TODO: refactor this into taxonData object
+                $http.get(sampleURL).success(function (data, status) {
+                    var sampleData = data;
+                    $scope.removeMarker(taxonName, sampleData)
                 });
-                        /* legacy - no longer using overlay or baselayers due to issues with leaflet menu
-                        layers: {
-                            baselayers: {
-                                osm: {
-                                    name: 'OpenStreetMap',
-                                    type: 'xyz',
-                                    url: 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-                                    layerOptions: {
-                                        subdomains: ['a', 'b', 'c'],
-                                        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-                                        continuousWorld: true
-                                    }
-                                },
-                                cycle: {
-                                    name: 'OpenCycleMap',
-                                    type: 'xyz',
-                                    url: 'http://{s}.tile.opencyclemap.org/cycle/{z}/{x}/{y}.png',
-                                    layerOptions: {
-                                        subdomains: ['a', 'b', 'c'],
-                                        attribution: '&copy; <a href="http://www.opencyclemap.org/copyright">OpenCycleMap</a> contributors - &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-                                        continuousWorld: true
-                                    }
-                                },
-                                cloudmade1: {
-                                    name: 'Cloudmade Night Commander',
-                                    type: 'xyz',
-                                    url: 'http://{s}.tile.cloudmade.com/{key}/{styleId}/256/{z}/{x}/{y}.png',
-                                    layerParams: {
-                                        key: '007b9471b4c74da4a6ec7ff43552b16f',
-                                        styleId: 999
-                                    },
-                                    layerOptions: {
-                                        subdomains: ['a', 'b', 'c'],
-                                        continuousWorld: true
-                                    }
-                                },
-                                cloudmade2: {
-                                    name: 'Cloudmade Tourist',
-                                    type: 'xyz',
-                                    url: 'http://{s}.tile.cloudmade.com/{key}/{styleId}/256/{z}/{x}/{y}.png',
-                                    layerParams: {
-                                        key: '007b9471b4c74da4a6ec7ff43552b16f',
-                                        styleId: 7
-                                    },
-                                    layerOptions: {
-                                        subdomains: ['a', 'b', 'c'],
-                                        continuousWorld: true
-                                    }
-                                }
-                            }
-                        }
-                    },
-                    removeOsmLayer: function() {
-                        delete this.mapDynamicLayers.layers.baselayers.osm;
-                    },
-                    addOsmLayer: function() {
-                        this.mapDynamicLayers.layers.baselayers.osm = {
-                            name: 'OpenStreetMap',
-                            type: 'xyz',
-                            url: 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-                            layerOptions: {
-                                subdomains: ['a', 'b', 'c'],
-                                attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-                                continuousWorld: true
-                            }
-                        };
-                    },
-                    existsOsmLayer: function() {
-                        return ('osm' in this.mapDynamicLayers.layers.baselayers);
-                    }
+            };
 
-                });
-                */
+            $scope.toggleSample = function (taxonName){
+                // if has taxonID from taxonName
+                if( ( taxonName+"_"+0 ) in $scope.markerCache ){
+                    $scope.deleteSample(taxonName);
+                } else if( !(( taxonName+"_"+0 ) in $scope.markerCache)) {
+                    $scope.accessSample(taxonName);
+                }
+            };
+
+
         }]);
     </script>
 
 </head>
+
+
+
 <body>
     <div ng-controller="MapController">
         <!-- map elements -->
-        <leaflet width="640px" height="480px" geojson = "geojson" markers="markerCache"></leaflet>
-        <hr/>
-        <!--
-        <leaflet width="640px" height="480px" layers="mapDynamicLayers.layers"></leaflet>
-        -->
-        <div id="controls-container">
-            <p><h2>{{'Test External Controls' | uppercase}}</h2></p>
-            <button ng-click="accessSample('./models/Swietenia_GeoJSON.json')">Sweet sweet Swietenia</button>
-            <button ng-click="accessSample('./models/Milicia_GeoJSON.json')">Magnificent Milicia</button>
-            <button ng-click="accessSample('./models/Entandrophragma_GeoJSON.json')">Enormously Fond of Entandrophragma</button>
+        <leaflet width="640px" height="480px" geojson="geojson" markers="markerCache"></leaflet>
+
+        <br>
+
+        <input ng-model="speciesQuery"/>
+        <div ng-repeat="species in taxonData.species | filter:speciesQuery| filter:!species.visible">
+            <input type="checkbox" ng-model="species.visible" ng-change="toggleSample(species.name)"/>
+            {{species.name}}
         </div>
+        <hr>
+        <div ng-repeat="species in taxonData.species | filter:speciesQuery | filter:!!species.visible">
+            <input type="checkbox" ng-model="species.visible" ng-change="toggleSample(species.name)"/>
+            {{species.name}}
+        </div>
+
     </div>
 </body>
+
 </html>
