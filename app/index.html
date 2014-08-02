@@ -41,6 +41,10 @@
     <script>
 
         var taxonData = {
+            // Species Array
+                // name - How the user will know it by
+                // link - How the computer will access the data
+                // visible - required for sorting on page
             species:[
                 {
                     name: "Swietenia",
@@ -58,7 +62,7 @@
                     visible:false
                 }],
             getSpecies: function(speciesName){
-                var auth = this; // wor karound
+                var auth = this; // workaround. Auth means "authorized"
                 // TODO handle failure case
                 return auth.species.filter(
                         function(species){ return species.name === speciesName }
@@ -180,8 +184,6 @@
 
 </head>
 
-
-
 <body>
     <div ng-controller="MapController">
         <!-- map elements -->
@@ -190,7 +192,7 @@
         <br>
 
         <input ng-model="speciesQuery"/>
-        <div ng-repeat="species in taxonData.species | filter:speciesQuery| filter:!species.visible">
+        <div ng-repeat="species in taxonData.species | filter:speciesQuery | filter:!species.visible">
             <input type="checkbox" ng-model="species.visible" ng-change="toggleSample(species.name)"/>
             {{species.name}}
         </div>
