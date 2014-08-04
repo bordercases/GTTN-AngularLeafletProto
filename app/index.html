@@ -1,29 +1,20 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>GTTN Angular-Leaflet Prototype</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="bower_components/html5-boilerplate/css/normalize.css"/>
-    <link rel="stylesheet" href="bower_components/html5-boilerplate/css/main.css"/>
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
-    <link rel="stylesheet" href="css/app.css"/>
     <link rel="stylesheet" href="bower_components/leaflet-dist/leaflet.css" />
     <link rel="stylesheet" href="bower_components/Leaflet.label/dist/leaflet.label.css" />
     <link rel="stylesheet" href="bower_components/leaflet.markercluster/dist/MarkerCluster.css" />
     <link rel="stylesheet" href="bower_components/leaflet.markercluster/dist/MarkerCluster.Default.css" />
 
-    <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
-
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/angular/angular.min.js"></script>
-    <script src="bower_components/angular-route/angular-route.min.js"></script>
 
     <!-- leaflet -->
     <script src="bower_components/leaflet-dist/leaflet.js"></script>
@@ -31,36 +22,14 @@
     <script src="bower_components/Leaflet.label/dist/leaflet.label.js"></script>
     <script src="bower_components/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
 
-    <!-- bootstrap -->
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- assume jquery is included through npm package -->
-
-    <!-- angular app -->
-    <script src="js/app.js"></script>
-
     <script>
 
-        var taxonData = {
+        var taxonData   = {
             // Species Array
-                // name - How the user will know it by
-                // link - How the computer will access the data
-                // visible - required for sorting on page
-            species:[
-                {
-                    name: "Swietenia",
-                    link:"./models/Swietenia_GeoJSON.json",
-                    visible:false
-                },
-                {
-                    name:"Milicia",
-                    link:"./models/Milicia_GeoJSON.json",
-                    visible:false
-                },
-                {
-                    name:"Entandrophragma",
-                    link:"./models/Entandrophragma_GeoJSON.json",
-                    visible:false
-                }],
+            // name - How the user will know it by
+            // link - How the computer will access the data
+            // visible - required for sorting on page
+            species:    undefined,
             getSpecies: function(speciesName){
                 var auth = this; // workaround. Auth means "authorized"
                 // TODO handle failure case
@@ -69,6 +38,32 @@
                 )[0];
             }
         };
+
+        // TODO: Let's see if I can get away without using an event listener
+
+        // get catalog
+        $(function(){
+            var catalog;
+            $(function(){
+                var getCatalog =
+                        $.ajax({
+                            url: "${taxaCatalog}",
+                            success: function(data, textStatus, jqXHR){
+                                catalog = data;
+                                // post-process catalog
+                                for (var i=0;i<catalog.length;i++){
+                                    catalog[i].link     = "${mapdata}"+catalog[i].taxonID;
+                                    catalog[i].visible  = false
+                                };
+                            },
+                            async:false,
+                            dataType: "json"
+                        });
+            });
+
+            // set to taxonData species
+            taxonData.species = catalog;
+        });
 
         var gttnMap = angular.module("gttnMap", ['leaflet-directive']);
         gttnMap.controller("MapController", [ "$scope", "$http", "leafletData", function($scope, $http, leafletData) {
@@ -93,10 +88,7 @@
 
             // i) Define dataset parsing method (add markers)
             $scope.geoJsonToMarker = function (taxonName, FeatureCollection){
-
-                var taxonType   = $scope.taxonData.getSpecies(taxonName).type;
-                var ftrcl       = FeatureCollection;
-                var features    = ftrcl.features;
+                var features    = FeatureCollection.features;
 
                 // add Points
                 for (var i = 0; i < features.length; i++) {
@@ -108,7 +100,7 @@
                     point.message   = ftr.id;
                     point.lat       = ftr.geometry.coordinates[1];
                     point.lng       = ftr.geometry.coordinates[0];
-                    point.label     = { message: ftr.properties.taxon, options: { noHide: true }}; // TODO: Necessary property?
+                    point.label     = { message: ftr.properties.taxon, options: { noHide: true }};
 
                     $scope.markerCache[taxonName + '_' + i] = point;
                 }
@@ -137,9 +129,8 @@
 
             // ii) Define marker remove method
             $scope.removeMarker = function (taxonName, FeatureCollection){
-                var ftrcl       = FeatureCollection;
+                var features    = FeatureCollection.features;
 
-                var features = ftrcl.features;
                 for (var i = 0; i < features.length; i++) {
                     if ($scope.markerCache[taxonName + '_' + i]){
                         delete $scope.markerCache[taxonName + '_' + i]
@@ -155,7 +146,7 @@
                 $http.get(sampleURL).success(function (data, status) {
                     var sampleData = data;
                     $scope.geoJsonToMarker(taxonName, sampleData);
-                    $scope.centerJSON(sampleData)
+                    $scope.centerJSON(sampleData);
                 });
             };
 
@@ -184,12 +175,14 @@
 
 </head>
 
-<body>
+<body ng-app="gttnMap">
     <div ng-controller="MapController">
         <!-- map elements -->
         <leaflet width="640px" height="480px" geojson="geojson" markers="markerCache"></leaflet>
 
         <br>
+
+        <!-- TODO: Hide the below until the data loading into catalog has successfully completed; in the meantime show a loading animation -->
 
         <input ng-model="speciesQuery"/>
         <div ng-repeat="species in taxonData.species | filter:speciesQuery | filter:!species.visible">
